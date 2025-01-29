@@ -1,0 +1,9 @@
+functions:
+- copy folders / files [x]
+- delete folders / files
+- (un)compressing :
+  - zip 
+  - tar 
+  - other formats 
+
+- move files 
