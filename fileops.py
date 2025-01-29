@@ -5,8 +5,6 @@ import time
 from tqdm import tqdm
 
 
-#libg_fileops
-
 def copy_file(src, dest):
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     shutil.copy2(src, dest)
