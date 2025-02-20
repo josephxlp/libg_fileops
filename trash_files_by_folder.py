@@ -49,9 +49,5 @@ def delete_folder_contents(folder_path, verbose=False):
 
 # Example usage
 if __name__ == "__main__":
-    folder_to_clean = "/media/ljp238/12TBWolf/RSPROX/DEMVFILL/"
-    folder_to_clean = "/media/ljp238/12TBWolf/RSPROX/VRTs/"
-    folder_to_clean = "/media/ljp238/12TBWolf/RSPROX/OUTPUT_TILES/"
-    folder_to_clean = "/media/ljp238/12TBWolf/ARCHIEVE/GFC2020/"
-    folder_to_clean = "/media/ljp238/12TBWolf/ARCHIEVE/ZOUT/datasets_TILES12/"
+    folder_to_clean = "/"
     delete_folder_contents(folder_to_clean, verbose=True)  # Clean everything with verbose output
